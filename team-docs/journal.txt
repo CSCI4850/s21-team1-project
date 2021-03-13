@@ -1,0 +1,21 @@
+Roles
+----------
+Collecting data - Brad
+Processing data - Chris
+Project Mgmt - Matt 
+Network training - Sean and Justin
+
+Mar 12
+-------------------
+Struggled with how to start, opted to scrape first for a faster start
+
+Setup the general roles for each memeber,  
+
+Having two datasets for testing and training
+	* Building or using pre existing scraper
+	* Processing scraped images
+	* Repeat for various kinds of images
+
+Having basic architecture together
+	* Research options for architecture
+	* Test options' performances
