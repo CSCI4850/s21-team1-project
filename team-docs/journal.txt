@@ -19,3 +19,15 @@ Having two datasets for testing and training
 Having basic architecture together
 	* Research options for architecture
 	* Test options' performances
+
+Mar 30
+-------------------
+Brad scrapped images with script and we divided the job of classifying them up.
+
+Apr 1
+-------------------
+Created some functions to read in the good/bad images as numpy arrays from their respective directories. 
+Were using the directory name as the classfier. 
+
+
+
