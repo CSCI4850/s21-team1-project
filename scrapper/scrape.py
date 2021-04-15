@@ -65,7 +65,6 @@ def fetch_image_urls(query:str, max_links_to_fetch:int, wd:webdriver, sleep_betw
         else:
             print("Found:", len(image_urls), "image links, looking for more ...")
             time.sleep(30)
-            return
             load_more_button = wd.find_element_by_css_selector(".mye4qd")
             if load_more_button:
                 wd.execute_script("document.querySelector('.mye4qd').click();")
