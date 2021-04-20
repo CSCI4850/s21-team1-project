@@ -26,12 +26,17 @@ Brad scrapped images with script and we divided the job of classifying them up.
 
 Apr 1
 -------------------
-Created some functions to read in the good/bad images as numpy arrays from their respective directories. 
+Created some functions to read in the good/bad images as numpy arrays from
+their respective directories. 
 Were using the directory name as the classfier. 
 
 Apr 16 
 -------------------
-Randomized numpy array with np.random.shuffle. Improved performance by an average of 10%. 
+Randomized numpy array with np.random.shuffle. Improved performance by an
+average of 10%. 
 
 Brad attempting 3 diff feature detectors each in a block. One for knees.
 1715 images as of right now. Almost 1200 are of squats -> get more non squats
+
+Cleaned up images and narrowed scope down to categorizing based on mostly side
+views of a squat
