@@ -40,3 +40,20 @@ Brad attempting 3 diff feature detectors each in a block. One for knees.
 
 Cleaned up images and narrowed scope down to categorizing based on mostly side
 views of a squat
+
+Apr 19
+-------------------
+custom function to read in a process data was to complicated for a team
+structure switched to using image generator classto read in and manipulate
+images because it was simpler. Converted to a numpy array after because it was more explicit.
+
+custom prediction method at the bottom shows the networks guess (left) and the
+actual classification (right)
+
+so far the simpler network architectures do a better job of not overfitting (1-2 smallish conv2d layers)
+
+batch normalization improves overfitting issue dramatically, a momentum of 0.4 to 0.6 seems to be the sweet spot
+https://keras.io/api/layers/normalization_layers/batch_normalization
+
+starting to place performance graphs as a sort of log. 
+
