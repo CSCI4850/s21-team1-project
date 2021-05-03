@@ -4,7 +4,9 @@ To run the demo you will need to first install Juypter Notebook onto your machin
 You will also need the following libraries:
 
 Tensorflow
+
 OpenCV
+
 MatPlotLib
 
 Run the following commands to install MatPlotLib and OpenCV
