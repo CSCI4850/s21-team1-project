@@ -1,13 +1,7 @@
 ## Leabra Demo
 
 To run the demo you will need to first install Juypter Notebook onto your machine: https://jupyter.org/install
-You will also need the following libraries:
-
-Tensorflow
-
-OpenCV
-
-MatPlotLib
+You will also need the following libraries: MatPlotLib, OpenCV, and Tensorflow
 
 Run the following commands to install MatPlotLib and OpenCV
 ```
